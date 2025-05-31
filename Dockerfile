@@ -7,6 +7,5 @@ ENTRYPOINT ["redpanda", "start", \
   "--memory", "512M", \
   "--reserve-memory", "0M", \
   "--overprovisioned", \
-  "--check=false", \
   "--kafka-addr=0.0.0.0:9092", \
   "--advertise-kafka-addr=redpanda-render-production.up.railway.app:9092"]
